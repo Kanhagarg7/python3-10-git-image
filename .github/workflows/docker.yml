@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: kanhag/python310-git-image:latest
+          tags: kanhag/kanha:latest
