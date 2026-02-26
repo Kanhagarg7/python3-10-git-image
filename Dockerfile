@@ -5,4 +5,6 @@ RUN apt update && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 
+
+Run pip install -r requirments.txt
 CMD ["bash"]
