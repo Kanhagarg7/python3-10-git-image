@@ -2,6 +2,7 @@ FROM python:3.10-slim
 
 RUN apt update && \
     apt install -y git && \
+    apt install -y ffnpeg mediainfo && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 
