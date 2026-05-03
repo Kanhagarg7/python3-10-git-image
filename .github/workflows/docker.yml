@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: kanahg/python311-git:latest
+          tags: kanahg/python311-gitnclo:latest
